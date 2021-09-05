@@ -46,13 +46,12 @@ export class HomePage implements OnInit {
     await alert.present();
   }
 
+  // Botón limpíar
   limpiar(){
     this.nombre = '';
     this.apellido ='';
     this.educacion = null;
     this.fechaNacimiento = null; 
   }
-
-
 
 }

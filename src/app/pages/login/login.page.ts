@@ -22,7 +22,7 @@ export class LoginPage implements OnInit {
       state:{usuario: this.nombreUsuario}
     }
     // Redireccion a pagina home
-    //El metodo navigate tendra como parametros la ruta y el objeto navigationextra(que contendra el noimbre del usuario)
+    //El metodo navigate tendra como parametros la ruta y el objeto navigationextra(que contendra el nombre del usuario)
     this.router.navigate(['/home'],navigationExtras);
   }
 
